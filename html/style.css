@@ -1,16 +1,26 @@
+
+body {
+	font-family: New Times Roman, Arial;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
 #header {
 text-align: center;
 background-image: url(http://images.pcgs.com/CoinFacts/06660175_1509379_2200.jpg);
-height: 299px;
+height: 150px;
 
 }
+
 
 a {
 	text-decoration: none;
 }
 
 #maincasing {
-width: 1920px;
+width: auto;
 margin-left: auto;
 margin-right: auto;
 }
@@ -21,7 +31,7 @@ margin-right: auto;
 }
 
 #navbar {
-	width: 1920px;
+	width: auto;
 	text-align: center;
 	margin-top: 10px;
 	border:1px solid black;
@@ -31,43 +41,54 @@ margin-right: auto;
 
 #navbar ul {
   list-style-type: none;
-  padding: 0;
+  padding: 0px;
   text-align: center;
+  list-style: none;
+  list-style-position: left;
+  display: inline-block;
+}
+#navbar li { display: inline; }
+
+#navbar li a
+{
+text-decoration: none;
+padding: .2em 1em;
 }
 
 #rightbox {
-	width: 125px;
+	width: 150px;
 	text-align: top;
 	margin-top: 1px;
 	border:1px solid black;
-	padding: 0;
+	padding: 5px;
+	margin-right: 5px;
 }
 
 #main {
-	width: 1770px;
-float:right;
+	width: auto;
+    float:center;
+    margin-left: 5px;
 	
 }
 
 #downloads {
-	width: 1770px;
-	float:right;
+	width: auto;
+	float: center;
+	margin-left: 5px;
 }
 
 #contact {
-	width: 1770px;
-	float:right;
+	width: auto;
+	float: center;
+	margin-left: 5px;
 }
 
 #forum {
-	width: 1770px;
-	float:right;
+	width: auto;
+	float: center;
+	margin-left:5px;
 }
 
-
-body {
-	font-family: New Times Roman, Arial;
-}
 
 h1, h2, h3, h4 {margin:0;
 }
